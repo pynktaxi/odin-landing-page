@@ -1,3 +1,29 @@
-body {
-    background-color: pink;
+/* Top  */
+.header {
+background-color: red;
+}
+
+
+/* Section 1 */
+.section-1 {
+background-color: orange;
+}
+
+/* Section 2 */
+.section-2 {
+    background-color: yellow;
+}
+
+/* Section 3 */
+.section-3 {
+    background-color: green;
+}
+/* Section 4 */
+.section-4 {
+    background-color: blue;
+}
+
+/* Footer */
+.footer{
+    background-color: purple;
 }
