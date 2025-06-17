@@ -1,29 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+    color: white;
+    font-family: Roboto, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900px;
+    padding: 10px;
+}
+
+.hero-secondary-text, .header-link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+
+ .header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ .information-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+}
+
+/* call-to-action */
+button {
+    flex-grow: 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    height: 32px;
+    width: 100px;
+}
+
 /* Top  */
 .header {
-background-color: red;
+background-color: #1f2937;
+display: flex;
+justify-content: space-around;
+
+padding: 10px 0px;
+}
+.header img {
+    font-size: 18px;
+    font-weight: bold;
+}
+.right-links a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
 }
 
 
 /* Section 1 */
 .section-1 {
-background-color: orange;
+    background-color: #1f2937;
+    container-type: border-box;
+    padding: 30px 50px;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.section-1 img {
+    background-color: gray;
+    text-align: center;
 }
 
 /* Section 2 */
 .section-2 {
-    background-color: yellow;
+    background-color: darkgoldenrod;
+    text-align: center;
+    
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Section 3 */
 .section-3 {
-    background-color: green;
+    background-color: #e5e7eb;
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
 }
+
+
 /* Section 4 */
 .section-4 {
     background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 30px;
+    border-radius: 10px;
 }
+
 
 /* Footer */
 .footer{
-    background-color: purple;
+    background-color: #1f2937;
+    text-align: center;
+    justify-self: end;
 }
