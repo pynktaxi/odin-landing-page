@@ -48,7 +48,7 @@ padding: 10px 0px;
 /* Section 1 */
 .section-1 {
     background-color: #1f2937;
-    padding: 30px 50px;
+    padding: 30px 50px 80px;
     
     display: flex;
     justify-content: center;
@@ -125,32 +125,47 @@ padding: 10px 0px;
 .section-3 {
     background-color: #e5e7eb;
     container-type: border-box;
-    padding: 60px 120px;
+    padding: 60px 180px;
 }
 .quote {
-    text-align: justify;
+    text-align: left;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     max-width: 1600px;
+
 }
 .speaker {
     color: black;
     text-align: right;
+    font-weight: 900;
 }
 
 
 /* Section 4 - Call to Action */
 .section-4 {
-    background-color: blue;
+    background-color: #3882f6;
     display: flex;
     justify-content: space-around;
-    margin: 20px 30px;
+    container-type: border-box;
+    margin: 80px 100px;
     border-radius: 10px;
+    padding: 40px 10px;
+    
 }
+.call-to-action {
+    font-weight: 900;
+    font-size: 18px;
+}
+.instruct {
+    margin: 4px 0;
+    font-weight: 300;
+}
+
 .section-4 button {
         border-color: #f9faf8;
+        align-self: center;
 }
 
 
@@ -159,4 +174,5 @@ padding: 10px 0px;
     background-color: #1f2937;
     text-align: center;
     justify-self: end;
+    padding: 20px;
 }
